@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage ('Init') {
       steps {
-        sh 'echo "Start of Job"'
+        sh 'echo "Start of Job AHAHAHAHAH"'
         sh 'ls -la'
       }
     }
