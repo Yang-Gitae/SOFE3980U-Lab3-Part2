@@ -5,7 +5,7 @@ pipeline {
         REPO_PATH= credentials("repo_path") // secret text for the repo path. I set it manually in Jenkins credentials
         APP_NAME = "binarycalculatorwebapp"
         IMAGE_TAG = "$REPO_PATH/$APP_NAME"
-        CLUSTER = credentials("cluster_name") // secret text for the cluster name. I set it manually in Jenkins credentials
+        CLUSTER = credentials("cluster_name") // secret text for the cluster name. I set it manually in Jenkins credentials (LAOALAOAOALA)
         CLUSTER_ZONE = credentials("cluster_zone") // secret text for the cluster zone. I set it manually in Jenkins credentials
     }
     agent{   // create a node under the name gcloud that running google/cloud-sdk:latest docker image 
